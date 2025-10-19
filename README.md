@@ -26,6 +26,5 @@ Go to 👉 http://127.0.0.1:8000/docs
 
 
 ## Endpoints
-Method       Endpoint             Description
-GET	         /health	Health check for the API
-POST	     /predict	Upload an image file (PNG JPG) → returns predicted class and confidence score
+GET-> /health -> Health check for the API
+POST-> /predict -> Upload an image file (PNG JPG) → returns predicted class and confidence score
