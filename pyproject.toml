@@ -1,0 +1,17 @@
+[project]
+name = "assignment2-cnn"
+version = "0.1.0"
+description = "CNN image classifier API with helper library (FastAPI + PyTorch)"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "torch",
+  "torchvision",
+  "pillow",
+  "python-multipart>=0.0.20",
+]
+
+
